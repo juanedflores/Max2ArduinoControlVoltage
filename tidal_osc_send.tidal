@@ -1,0 +1,8 @@
+x1 
+  $ stack [ id
+    $ s "just*10"
+    # justr1 "3%2" |* justr1 "<2 1 2>"
+    # justr2 "5%4" |* justr2 "<2 1>"
+    # justr3 "4%3" |* justr3 "<2 1 1 2>"
+    # justr4 "2%1" |* justr4 "<2 1>"
+  ]
